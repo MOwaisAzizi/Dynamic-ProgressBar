@@ -1,0 +1,108 @@
+*{
+    list-style: none;
+}
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+.skills{
+    width: 50vw;
+    margin: 60px auto;
+    color: black;
+    padding: 10px;
+}
+.skills li{
+    padding: 5px;
+}p{
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+
+}
+.bar{
+    background-color: white;
+    display: block;
+    height: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}.bar span{
+    height: 15px;
+    float: left;
+    background: linear-gradient(135deg,rgb(26, 247, 52),rgb(7, 211, 58));
+}
+@media screen and (max-width: 600px) {
+    .bar span {
+        height: 10px;
+    }.bar{
+        height: 10px;
+    }p{
+    margin-bottom: 5px;
+    }.skills li{
+     padding: 0;
+    }.skills{
+        width: 90%;
+    }
+  }
+
+.html{
+    width: 95%;
+    animation: html 3s;
+}
+.css{
+    width: 85%;
+    animation: css 3s;
+}
+.js{
+    width: 90%;
+    animation: js 3s;
+}
+.bootstrap{
+    width: 85%;
+    animation: bootstrap 3s;
+}
+.react{
+    width: 80%;
+    animation: react 3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }100%{
+        width: 95%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+
+@keyframes js{
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+
+@keyframes react{
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
